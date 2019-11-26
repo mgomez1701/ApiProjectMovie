@@ -17,20 +17,15 @@
 
         if (User.FindFirst(ClaimTypes.NameIdentifier).Value == favMovie.UserId)
         {
-
-
-
         <tr>
             <td>@favMovie.Name</td>
             <td>@favMovie.Imdbid</td>
             <td>@favMovie.Year</td>
 
             <td>
-                <form action="../MovieAPIDb/AddFavorites" method="post">
-                    <input type="hidden" name="Title" value="@favMovie.FavoriteId" />
-
-
-                    <input type="submit" value="Add To Favorites" />
+                <form action="../MovieAPIDb/RemoveFavorite" method="post">
+                    <input type="hidden" name="Id" value="@favMovie.FavoriteId" />
+                    <input type="submit" value="Remove From Favorites" />
 
                 </form>
             </td>

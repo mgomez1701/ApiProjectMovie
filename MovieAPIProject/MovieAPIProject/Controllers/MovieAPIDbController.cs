@@ -34,7 +34,7 @@ namespace MovieAPIProject.Controllers
                 _database.Favorites.Add(newMovie);
                 _database.SaveChanges();
             }
-            return RedirectToAction("Index", "Home");
+            return RedirectToAction("FavoriteList");
         }
 
         public IActionResult FavoriteList()
@@ -42,7 +42,17 @@ namespace MovieAPIProject.Controllers
             return View(_database.Favorites.ToList());
         }
 
-        
+        public IActionResult RemoveFavorite(int id)
+        {
+            var foundMovie = _database.Favorites.Find(id);
+            if(foundMovie != null)
+            {
+                _database.Favorites.Remove(foundMovie);
+                _database.SaveChanges();
+
+            }
+            return RedirectToAction("FavoriteList");
+        }
     }
 
 

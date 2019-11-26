@@ -135,3 +135,4 @@ C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAP
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\MovieAPIProject.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\MovieAPIProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\Razor\Views\Movie\DisplaySearch.cshtml.g.cs
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\Razor\Views\MovieAPIDb\FavoriteList.cshtml.g.cs
