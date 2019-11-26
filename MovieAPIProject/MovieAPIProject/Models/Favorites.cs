@@ -5,6 +5,7 @@ namespace MovieAPIProject.Models
 {
     public partial class Favorites
     {
+        public int FavoriteId { get; set; }
         public string Name { get; set; }
         public string Imdbid { get; set; }
         public string Year { get; set; }

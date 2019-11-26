@@ -20,10 +20,12 @@
     <td>@searchMovie.imdbID</td>
     <td>@searchMovie.Year</td>
 
-    <td><form action="../Movie/AddFavorites" method="post">
+    <td><form action="../MovieAPIDb/AddFavorites" method="post">
     <input type="hidden" name="Title" value="@searchMovie.Title" />
-    <input type="hidden" name="Title" value="@searchMovie.imdbID" />
-    <input type="hidden" name="Title" value="@searchMovie.Year" />
+    <input type="hidden" name="imdbID" value="@searchMovie.imdbID" />
+    <input type="hidden" name="Year" value="@searchMovie.Year" />
+    <input type="hidden" name="Type" value="@searchMovie.Type" />
+    <input type="hidden" name="Poster" value="@searchMovie.Poster" />
 
     <input type="submit" value="Add To Favorites" />
 

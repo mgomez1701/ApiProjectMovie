@@ -26,18 +26,8 @@ namespace MovieAPIProject.Controllers
             return View(movies);
         }
 
-        [HttpGet]
-        public IActionResult AddFavorites()
-        {
-            return View();
-        }
-        public IActionResult AddFavorites(Search searchMovie)
-        {
-            if (ModelState.IsValid)
-            {
-                
-            }
-        }
+
+       
  
     }
 }

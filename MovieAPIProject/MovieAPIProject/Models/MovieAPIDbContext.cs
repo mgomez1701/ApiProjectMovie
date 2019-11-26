@@ -135,7 +135,8 @@ namespace MovieAPIProject.Models
 
             modelBuilder.Entity<Favorites>(entity =>
             {
-                entity.HasNoKey();
+                entity.HasKey(e => e.FavoriteId)
+                    .HasName("PK__Favorite__CE74FAD5476AD69E");
 
                 entity.Property(e => e.Imdbid)
                     .HasColumnName("IMDBId")

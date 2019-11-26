@@ -1,0 +1,42 @@
+﻿
+@{
+    ViewData["Title"] = "FavoriteList";
+}
+@using System.Security.Claims;
+@model List<Favorites>
+
+<h1>Favorite List</h1>
+<table class="table">
+    <tr>
+        <td>Title</td>
+        <td>iMDb iD</td>
+        <td>Year</td>
+    </tr>
+    @foreach (Favorites favMovie in Model)
+    {
+
+        if (User.FindFirst(ClaimTypes.NameIdentifier).Value == favMovie.UserId)
+        {
+
+
+
+        <tr>
+            <td>@favMovie.Name</td>
+            <td>@favMovie.Imdbid</td>
+            <td>@favMovie.Year</td>
+
+            <td>
+                <form action="../MovieAPIDb/AddFavorites" method="post">
+                    <input type="hidden" name="Title" value="@favMovie.FavoriteId" />
+
+
+                    <input type="submit" value="Add To Favorites" />
+
+                </form>
+            </td>
+
+        </tr>
+        }
+    }
+    </table>
+
