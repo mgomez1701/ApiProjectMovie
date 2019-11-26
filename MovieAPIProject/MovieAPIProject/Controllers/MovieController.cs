@@ -10,6 +10,7 @@ namespace MovieAPIProject.Controllers
 {
     public class MovieController : Controller
     {
+        
         private readonly HttpClient _client;
 
         public MovieController(IHttpClientFactory client)
@@ -25,5 +26,18 @@ namespace MovieAPIProject.Controllers
             return View(movies);
         }
 
+        [HttpGet]
+        public IActionResult AddFavorites()
+        {
+            return View();
+        }
+        public IActionResult AddFavorites(Search searchMovie)
+        {
+            if (ModelState.IsValid)
+            {
+                
+            }
+        }
+ 
     }
 }

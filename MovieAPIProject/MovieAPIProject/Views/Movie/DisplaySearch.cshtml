@@ -15,12 +15,21 @@
     {
 
 
-    <tr>
-        <td>@searchMovie.Title</td>
-        <td>@searchMovie.imdbID</td>
-        <td>@searchMovie.Year</td>
+<tr>
+    <td>@searchMovie.Title</td>
+    <td>@searchMovie.imdbID</td>
+    <td>@searchMovie.Year</td>
 
-    </tr>
+    <td><form action="../Movie/AddFavorites" method="post">
+    <input type="hidden" name="Title" value="@searchMovie.Title" />
+    <input type="hidden" name="Title" value="@searchMovie.imdbID" />
+    <input type="hidden" name="Title" value="@searchMovie.Year" />
+
+    <input type="submit" value="Add To Favorites" />
+
+</form></td>
+
+</tr>
     }
 </table>
 
