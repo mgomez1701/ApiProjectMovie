@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewData["Title"] = "DisplaySearch";
+}
+@model SearchRoot
+
+<h1>Search Movies</h1>
+<table class="table align-items-xl-center">
+    <tr>
+        <td>Title</td>
+        <td>iMDb iD</td>
+        <td>Year</td>
+    </tr>
+    @foreach (Search searchMovie in Model.Search)
+    {
+
+
+    <tr>
+        <td>@searchMovie.Title</td>
+        <td>@searchMovie.imdbID</td>
+        <td>@searchMovie.Year</td>
+
+    </tr>
+    }
+</table>

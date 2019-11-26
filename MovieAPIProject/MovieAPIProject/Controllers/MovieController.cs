@@ -20,7 +20,8 @@ namespace MovieAPIProject.Controllers
         public async Task<IActionResult> DisplaySearch()
         {
             var response = await _client.GetAsync("?s=ghostbusters&apikey=425dbd7b");
-            var movies = await response.Content.ReadAsAsync<List<MovieRoot>>();
+            var movies = await response.Content.ReadAsAsync<SearchRoot>();
             return View(movies);
+        }
     }
 }
