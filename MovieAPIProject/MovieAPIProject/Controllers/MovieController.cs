@@ -17,11 +17,13 @@ namespace MovieAPIProject.Controllers
             _client = client.CreateClient();
             _client.BaseAddress = new Uri("http://www.omdbapi.com/");
         }
-        public async Task<IActionResult> DisplaySearch()
+        public async Task<IActionResult> DisplaySearch(string input)
         {
-            var response = await _client.GetAsync("?s=ghostbusters&apikey=425dbd7b");
+            var response = await _client.GetAsync($"?s={input}&apikey=425dbd7b");
             var movies = await response.Content.ReadAsAsync<SearchRoot>();
+
             return View(movies);
         }
+
     }
 }
