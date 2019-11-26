@@ -7,9 +7,12 @@
             <Node name="MovieAPIProject" expanded="True">
               <Node name="Controllers" expanded="True" />
               <Node name="Models" expanded="True">
-                <Node name="Movies.cs" selected="True" />
+                <Node name="Search.cs" selected="True" />
               </Node>
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Movie" expanded="True" />
+                <Node name="MovieAPIDb" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
