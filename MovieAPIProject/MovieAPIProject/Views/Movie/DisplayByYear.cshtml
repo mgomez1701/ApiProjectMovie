@@ -2,6 +2,41 @@
 @{
     ViewData["Title"] = "DisplayByYear";
 }
+@model SearchRoot
 
 <h1>DisplayByYear</h1>
+<table class="table align-items-xl-center">
+    <tr>
+        <td>Title</td>
+        <td>iMDb iD</td>
+        <td>Year</td>
+    </tr>
+    @foreach (Search searchMovie in Model.Search)
+    {
 
+
+        <tr>
+            <td>@searchMovie.Title</td>
+            <td>@searchMovie.imdbID</td>
+            <td>@searchMovie.Year</td>
+            <td><img src=@searchMovie.Poster></td>
+
+            <td>
+                <form action="../MovieAPIDb/AddFavorites" method="post">
+                    <input type="hidden" name="Title" value="@searchMovie.Title" />
+                    <input type="hidden" name="imdbID" value="@searchMovie.imdbID" />
+                    <input type="hidden" name="Year" value="@searchMovie.Year" />
+                    <input type="hidden" name="Type" value="@searchMovie.Type" />
+                    <input type="hidden" name="Poster" value="@searchMovie.Poster" />
+
+                    <input type="submit" value="Add To Favorites" />
+
+                </form>
+            </td>
+
+        </tr>
+    }
+</table>
+
+<form action="../Movie/DisplaySearch" method="post">
+</form>

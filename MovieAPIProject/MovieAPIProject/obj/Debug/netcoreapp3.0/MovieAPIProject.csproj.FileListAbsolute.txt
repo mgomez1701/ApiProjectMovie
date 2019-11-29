@@ -273,3 +273,4 @@ C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAP
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\MovieAPIProject.csproj.CopyComplete
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\MovieAPIProject.dll
 C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\MovieAPIProject.pdb
+C:\Users\micha\OneDrive\Desktop\C# Boot Camp\API Project\MovieAPIProject\MovieAPIProject\obj\Debug\netcoreapp3.0\Razor\Views\Movie\DisplayByYear.cshtml.g.cs
