@@ -1,28 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/MovieAPIProject.csproj": {}
+    "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj": {}
   },
   "projects": {
-    "/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/MovieAPIProject.csproj": {
+    "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/MovieAPIProject.csproj",
+        "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
         "projectName": "MovieAPIProject",
-        "projectPath": "/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/MovieAPIProject.csproj",
-        "packagesPath": "/Users/NeoJax/.nuget/packages/",
-        "outputPath": "/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/obj/",
+        "projectPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
+        "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/NeoJax/.config/NuGet/NuGet.Config"
+          "C:\\Users\\micha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -90,7 +92,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
