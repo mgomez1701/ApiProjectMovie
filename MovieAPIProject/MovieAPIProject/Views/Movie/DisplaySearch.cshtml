@@ -19,6 +19,7 @@
     <td>@searchMovie.Title</td>
     <td>@searchMovie.imdbID</td>
     <td>@searchMovie.Year</td>
+    <td><img src=@searchMovie.Poster></td>
 
     <td><form action="../MovieAPIDb/AddFavorites" method="post">
     <input type="hidden" name="Title" value="@searchMovie.Title" />
