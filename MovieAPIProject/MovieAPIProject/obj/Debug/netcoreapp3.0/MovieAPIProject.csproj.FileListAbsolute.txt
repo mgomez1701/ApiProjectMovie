@@ -274,3 +274,4 @@ C:/Users/micha/OneDrive/Desktop/C# Boot Camp/API Project/MovieAPIProject/MovieAP
 C:/Users/micha/OneDrive/Desktop/C# Boot Camp/API Project/MovieAPIProject/MovieAPIProject/obj/Debug/netcoreapp3.0/MovieAPIProject.dll
 C:/Users/micha/OneDrive/Desktop/C# Boot Camp/API Project/MovieAPIProject/MovieAPIProject/obj/Debug/netcoreapp3.0/MovieAPIProject.pdb
 /Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/obj/Debug/netcoreapp3.0/Razor/Views/Movie/DisplayByYear.cshtml.g.cs
+/Users/NeoJax/Desktop/Coding Stuff/Grand_Circus/WebApps/APIProject/ApiProjectMovie/MovieAPIProject/MovieAPIProject/obj/Debug/netcoreapp3.0/Razor/Views/Home/ErrorPage.cshtml.g.cs
