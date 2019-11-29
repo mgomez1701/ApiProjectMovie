@@ -26,7 +26,13 @@ namespace MovieAPIProject.Controllers
             return View(movies);
         }
 
+        public async Task<IActionResult> DisplayByYear(string year)
+        {
+            var response = await _client.GetAsync($"?y={year}&apikey=425dbd7b");
+            var movies = await response.Content.ReadAsAsync<List<SearchRoot>>();
 
+            return View(movies);
+        }
        
  
     }
