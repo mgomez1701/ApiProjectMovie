@@ -32,7 +32,7 @@ namespace MovieAPIProject.Controllers
         public async Task<IActionResult> DisplayByYear(string input, string year)
         {
             var response = await _client.GetAsync($"?t={input}&y={year}&apikey=425dbd7b");
-            var movies = await response.Content.ReadAsAsync<SearchRoot>();
+           var movies = await response.Content.ReadAsAsync<YearSearchRoot>();
             if (movies.Response == "False")
             {
                 return RedirectToAction("ErrorPage", "Home", "Please input a correct year");
