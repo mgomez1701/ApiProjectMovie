@@ -30,10 +30,10 @@ namespace MovieAPIProject
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(
-                    Configuration.GetConnectionString("JackConnection")))
+                    Configuration.GetConnectionString("DefaultConnection")))
 
                 .AddDbContext<MovieAPIDbContext>(options =>
-                options.UseSqlServer (Configuration.GetConnectionString("JackConnection")));
+                options.UseSqlServer (Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
             services.AddControllersWithViews();

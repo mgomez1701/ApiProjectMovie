@@ -78,6 +78,9 @@ body {
   padding-top: 10%;
 }
 
+.text-center {
+    background-color: #fed174
+}
 body{
     background-image: url("./SiteBackground.jpg");
     background-position: center center;
@@ -99,5 +102,8 @@ body{
 }
 .SearchBar{
     margin-top:10px;
+}
+.FavoriteList{
+    margin-right:5px;
 }
 

@@ -8454,11 +8454,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\ApiProjectMovie\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
       "projectName": "MovieAPIProject",
-      "projectPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
+      "projectPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\ApiProjectMovie\\MovieAPIProject\\MovieAPIProject\\MovieAPIProject.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\MovieAPIProject\\obj\\",
+      "outputPath": "C:\\Users\\micha\\OneDrive\\Desktop\\C# Boot Camp\\API Project\\MovieAPIProject\\ApiProjectMovie\\MovieAPIProject\\MovieAPIProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
