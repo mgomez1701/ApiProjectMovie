@@ -1,11 +1,9 @@
 ﻿<Properties StartupConfiguration="{CF0F85C0-A40B-46CD-84E2-3B84B85414D3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAPIProject/Views/Movie/DisplaySearch.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAPIProject/wwwroot/css/site.css">
     <Files>
-      <File FileName="MovieAPIProject/Views/Home/ErrorPage.cshtml" Line="10" Column="1" />
-      <File FileName="MovieAPIProject/Views/Home/Index.cshtml" Line="9" Column="12" />
-      <File FileName="MovieAPIProject/Views/Shared/_Layout.cshtml" Line="33" Column="26" />
-      <File FileName="MovieAPIProject/Controllers/MovieAPIDbController.cs" Line="3" Column="19" />
-      <File FileName="MovieAPIProject/Views/Movie/DisplaySearch.cshtml" Line="29" Column="53" />
+      <File FileName="MovieAPIProject/Views/Home/Index.cshtml" Line="6" Column="34" />
+      <File FileName="MovieAPIProject/Controllers/MovieAPIDbController.cs" Line="1" Column="1" />
+      <File FileName="MovieAPIProject/wwwroot/css/site.css" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,13 +11,16 @@
           <Node name="MovieAPIProject" expanded="True">
             <Node name="MovieAPIProject" expanded="True">
               <Node name="Controllers" expanded="True" />
+              <Node name="SiteFiles" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Home" expanded="True" />
-                <Node name="Movie" expanded="True">
-                  <Node name="DisplaySearch.cshtml" selected="True" />
-                </Node>
                 <Node name="MovieAPIDb" expanded="True" />
                 <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
