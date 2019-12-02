@@ -84,6 +84,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     margin: 0;
 }
 
@@ -94,4 +95,6 @@ body{
 
 .movie-title{
     font-family: tonight, sans-serif;
+    text-shadow: none;
 }
+
