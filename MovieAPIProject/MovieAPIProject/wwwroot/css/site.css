@@ -97,4 +97,7 @@ body{
     font-family: 'Poppins', sans-serif;
     text-shadow: none;
 }
+.SearchBar{
+    margin-top:10px;
+}
 
