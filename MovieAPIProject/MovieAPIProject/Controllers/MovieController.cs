@@ -22,7 +22,10 @@ namespace MovieAPIProject.Controllers
         {
             var response = await _client.GetAsync($"?s={input}&apikey=425dbd7b");
             var movies = await response.Content.ReadAsAsync<SearchRoot>();
-
+            if (movies.Response == "False")
+            {
+                return RedirectToAction("ErrorPage", "Home");
+            }
             return View(movies);
         }
 
@@ -30,7 +33,10 @@ namespace MovieAPIProject.Controllers
         {
             var response = await _client.GetAsync($"?t={input}&y={year}&apikey=425dbd7b");
             var movies = await response.Content.ReadAsAsync<SearchRoot>();
-
+            if (movies.Response == "False")
+            {
+                return RedirectToAction("ErrorPage", "Home", "Please input a correct year");
+            }
             return View(movies);
         }
        

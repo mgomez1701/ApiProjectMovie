@@ -17,4 +17,26 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\SiteBackground.jpg" />
+    <Content Remove="wwwroot\css\tonight\1001fonts-tonight-eula.txt" />
+    <Content Remove="wwwroot\css\tonight\Tonight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Views\Home\CantDoThatDave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\css\SiteBackground.jpg" />
+    <None Include="wwwroot\css\tonight\1001fonts-tonight-eula.txt" />
+    <None Include="wwwroot\css\tonight\Tonight.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="wwwroot\css\tonight\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\CantDoThatDave.png">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
 </Project>
