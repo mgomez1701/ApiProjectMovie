@@ -1,17 +1,29 @@
 ﻿<Properties StartupConfiguration="{CF0F85C0-A40B-46CD-84E2-3B84B85414D3}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAPIProject/Controllers/MovieController.cs">
+    <Files>
+      <File FileName="MovieAPIProject/Views/Home/Index.cshtml" Line="20" Column="69" />
+      <File FileName="MovieAPIProject/Controllers/MovieAPIDbController.cs" Line="12" Column="6" />
+      <File FileName="MovieAPIProject/wwwroot/css/site.css" Line="72" Column="1" />
+      <File FileName="MovieAPIProject/Views/Shared/Error.cshtml" Line="1" Column="1" />
+      <File FileName="MovieAPIProject/Views/MovieAPIDb/FavoriteList.cshtml" Line="1" Column="1" />
+      <File FileName="MovieAPIProject/Controllers/MovieController.cs" Line="23" Column="79" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MovieAPIProject" expanded="True">
             <Node name="MovieAPIProject" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True">
-                <Node name="Search.cs" selected="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="MovieController.cs" selected="True" />
               </Node>
               <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
                 <Node name="Movie" expanded="True" />
                 <Node name="MovieAPIDb" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
               </Node>
             </Node>
           </Node>
