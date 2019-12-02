@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="d-flex justify-content-center align-items-center container center ">
+    <div class="card card-block w-25 row">
+        <div class="text-center">
+            <h1 class="movie-title">Movie Search</h1>
+            <div class="form-group">
+                <form action="../Movie/DisplaySearch" method="post">
+                    <input type="text" name="input" placeholder="Movie Title" />
+                    <br />
+                    <input type="submit"  value="SearchMovie" class="SearchBar btn btn-info" />
+
+                </form>
+
+<!----            <form action="../Movie/DisplayByYear" method="post">
+                    <input type="text" name="input" placeholder="Movie Title" />
+                    <input type="text" name="input" placeholder="Search by Release Year" />
+
+                    <input type="submit" value="Search" />
+
+                </form>
+                -->
+            </div>
+        </div>
+    </div>
+</div>
+@*need to add to upper margin of 2nd form to make alignement nicer*@
