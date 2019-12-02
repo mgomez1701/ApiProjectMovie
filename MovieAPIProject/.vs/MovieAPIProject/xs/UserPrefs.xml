@@ -1,15 +1,8 @@
 ﻿<Properties StartupConfiguration="{CF0F85C0-A40B-46CD-84E2-3B84B85414D3}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAPIProject/wwwroot/lib/jquery-validation/LICENSE.md">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MovieAPIProject/wwwroot/css/site.css">
     <Files>
-      <File FileName="MovieAPIProject/Views/Home/Index.cshtml" Line="12" Column="65" />
-      <File FileName="MovieAPIProject/Controllers/MovieAPIDbController.cs" Line="12" Column="6" />
-      <File FileName="MovieAPIProject/wwwroot/css/site.css" Line="101" Column="1" />
-      <File FileName="MovieAPIProject/Views/Shared/Error.cshtml" Line="1" Column="1" />
-      <File FileName="MovieAPIProject/Views/MovieAPIDb/FavoriteList.cshtml" Line="1" Column="1" />
-      <File FileName="MovieAPIProject/Controllers/MovieController.cs" Line="45" Column="2" />
-      <File FileName="MovieAPIProject/Views/Movie/DisplaySearch.cshtml" Line="1" Column="1" />
-      <File FileName="MovieAPIProject/Views/Movie/DisplayByYear.cshtml" Line="1" Column="1" />
-      <File FileName="MovieAPIProject/wwwroot/lib/jquery-validation/LICENSE.md" Line="2" Column="9" />
+      <File FileName="MovieAPIProject/wwwroot/css/site.css" Line="97" Column="26" />
+      <File FileName="MovieAPIProject/Views/Shared/_Layout.cshtml" Line="12" Column="96" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,11 +17,11 @@
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True" />
+                <Node name="css" expanded="True">
+                  <Node name="site.css" selected="True" />
+                </Node>
                 <Node name="lib" expanded="True">
-                  <Node name="jquery-validation" expanded="True">
-                    <Node name="LICENSE.md" selected="True" />
-                  </Node>
+                  <Node name="jquery-validation" expanded="True" />
                 </Node>
               </Node>
             </Node>
